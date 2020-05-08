@@ -33,13 +33,21 @@ async def loop():
     
     if now == '05:26':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:hello:699779689127870514> ')  
+        await channel.send('<:hello:699779689127870514> ') 
+        
+    if now == '07:26':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('<:sparkling_heart:')      
     
     if now == '09:31':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:ge:699792780725059664> ')  
+        await channel.send('<:ge:699792780725059664> ') 
+        
+    if now == '11:31':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':balloon::balloon::balloon: ') 
 
-    if now == '11:11':
+    if now == '13:11':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('<:gn:699792795363311676>  ')
     
@@ -50,6 +58,10 @@ async def loop():
     if now == '13:48':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳')
+        
+    if now == '23:59':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('🥳 💝')
 
   
 #ループ処理実行
