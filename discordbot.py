@@ -37,7 +37,7 @@ async def loop():
         
     if now == '07:26':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('<:sparkling_heart:')      
+        await channel.send(':sparkling_heart:')      
     
     if now == '09:31':
         channel = client.get_channel(CHANNEL_ID)
@@ -59,6 +59,14 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳')
         
+    if now == '16:48':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('I am Dva :rabbit:')
+    
+    if now == '20:48':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send('🥳:gift_heart:')
+          
     if now == '23:59':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('🥳 💝')
